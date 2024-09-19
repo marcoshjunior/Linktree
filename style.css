@@ -11,14 +11,11 @@ p {
 }
 
 body {
-  text-align: center;
-}
-
-body {
-  background-color: slateblue;
+  background: linear-gradient(to right, slateblue, lightblue);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white;
+  text-align: center;
 }
 
 a {
@@ -30,4 +27,11 @@ a {
   text-align: center;
   margin: 10px;
   color: slateblue;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+  color: white;
+  background-color: slateblue;
 }
