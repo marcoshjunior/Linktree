@@ -21,6 +21,12 @@ body {
   text-align: center;
 }
 
+.link-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 a {
   background-color: white;
   font-size: 20px;
